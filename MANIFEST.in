@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include parsimony_woo *.css
+recursive-include parsimony_woo *.csv
+recursive-include parsimony_woo *.html
+recursive-include parsimony_woo *.ico
+recursive-include parsimony_woo *.js
+recursive-include parsimony_woo *.json
+recursive-include parsimony_woo *.md
+recursive-include parsimony_woo *.png
+recursive-include parsimony_woo *.py
+recursive-include parsimony_woo *.svg
+recursive-include parsimony_woo *.txt
+recursive-exclude parsimony_woo *.pyc
