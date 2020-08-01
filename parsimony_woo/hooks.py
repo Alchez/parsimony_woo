@@ -90,6 +90,10 @@ doc_events = {
 	}
 }
 
+woocommerce_postprocess = {
+	"Item": ["parsimony_woo.hook_events.item.set_valuation_rate"]
+}
+
 # Scheduled Tasks
 # ---------------
 
